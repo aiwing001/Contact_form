@@ -1,0 +1,95 @@
+.confirm__content {
+    margin: 0 auto;
+    padding: 15px 15px 25px;
+    max-width: 1230px;
+}
+
+.confirm__heading {
+    margin-bottom: 40px;
+    text-align: center;
+}
+
+.confirm__heading h2 {
+    font-family: "Didot", "Bodoni MT", "Playfair Display", serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: #94632b;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    color: #94632b;
+}
+
+.confirm-table {
+    width: 100%;
+    border: 1px solid #ddd;
+}
+
+.confirm-table__inner {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.confirm-table__header {
+    width: 30%;
+    padding: 14px 20px;
+    text-align: left;
+    background-color: #baa899;
+    color: #fff;
+    font-weight: bold;
+    border-bottom: 1px solid #ddd;
+}
+
+.confirm-table__text {
+    width: 70%;
+    padding: 14px 20px;
+    border-bottom: 1px solid #ddd;
+    font-size: 18px;
+    font-family: "Yu Gothic", "Hiragino Kaku Gothic ProN", sans-serif;
+}
+
+.confirm-table__text input,
+.confirm-table__text textarea {
+    width: 100%;
+    border: none;
+    outline: none;
+    resize: none;
+    color: #94632b;
+    background: transparent;
+}
+
+.confirm-table__row:last-child .confirm-table__header,
+.confirm-table__row:last-child .confirm-table__text {
+    border-bottom: none;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    display: inline-block;
+    margin: 0 10px;
+    padding: 10px 32px;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background: #94632b;
+    color: #fff;
+    font-size: 16px;
+    cursor: pointer;
+}
+
+.form__button-submit--back {
+    background: transparent;
+    color: #94632b;
+    text-decoration: underline;
+    cursor: pointer;
+}
+
+.form__button-submit--back:hover {
+    opacity: 0.7;
+}

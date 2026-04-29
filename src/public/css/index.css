@@ -1,0 +1,173 @@
+.contact-form__content {
+    margin: 0 auto;
+    padding: 15px 15px 25px;
+    max-width: 1230px;
+}
+
+.contact-form__heading {
+    margin-bottom: 30px;
+    text-align: center;
+}
+
+.contact-form__heading h2 {
+    font-family: "Didot", "Bodoni MT", "Playfair Display", serif;
+    font-weight: 500;
+    letter-spacing: 0.05em;
+    color: #94632b;
+}
+
+.form {
+    margin: 0 auto;
+    width: 70%;
+    color: #94632b;
+}
+
+.form__group {
+    display: flex;
+    justify-content: space-between;
+    margin-bottom: 15px;
+}
+
+.form__group-title {
+    width: 30%;
+    text-align: left;
+    font-weight: bold;
+}
+
+.form__group-content {
+    width: 600px;
+}
+
+.form__label--required {
+    margin-left: -7px;
+    padding: 4px 6px;
+    border-radius: 3px;
+    color: red;
+    font-size: 14px;
+    font-weight: bold;
+}
+
+.form__error {
+    color: red;
+    font-size: 11px;
+    margin-top: 5px;
+    min-height: 7px;
+}
+
+.form__input--text input,
+.form__input--textarea textarea,
+.form__select-box {
+    width: 100%;
+    padding: 10px;
+    border: none;
+    border-radius: 3px;
+    box-sizing: border-box;
+    appearance: none;
+    background-color: #f4f4f4;
+    color: #94632b;
+}
+
+.form__input--text input {
+    height: 40px;
+}
+
+.form__input--textarea textarea {
+    height: 180px;
+}
+
+.form__input--text input::placeholder,
+.form__input--textarea textarea::placeholder {
+    color: #9b8b7d;
+}
+
+.form__input--text {
+    display: flex;
+    gap: 15px;
+}
+
+.form__group:first-of-type .form__input--text {
+    gap: 50px;
+}
+
+.form__group:first-of-type .form__input-item {
+    flex: 1;
+}
+
+.form__group:nth-of-type(4) .form__input-item {
+    width: 30%;
+}
+
+.form__hyphen {
+    display: flex;
+    align-items: center;
+}
+
+.form__select {
+    position: relative;
+    width: 50%;
+}
+
+.form__select::after {
+    content: "▼";
+    position: absolute;
+    right: 12px;
+    top: 50%;
+    transform: translateY(-50%);
+    color: #9b8b7d;
+    font-size: 12px;
+    pointer-events: none;
+}
+
+.form__select-box {
+    padding-right: 35px;
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+.form__select-box:invalid {
+    color: rgba(148, 99, 43, 0.5);
+}
+
+.form__select-box:valid {
+    color: #94632b;
+}
+
+.form__radio {
+    display: flex;
+    gap: 70px;
+    align-items: center;
+    margin-left: 10px;
+}
+
+.form__radio label {
+    display: flex;
+    align-items: center;
+    gap: 8px;
+    font-size: 14px;
+}
+
+.form__radio input {
+    transform: scale(1.2);
+    margin-right: 3px;
+}
+
+.form__radio input[type="radio"] {
+    accent-color: #94632b;
+}
+
+.form__button {
+    margin-top: 30px;
+    text-align: center;
+}
+
+.form__button-submit {
+    padding: 8px 30px;
+    width: auto;
+    height: 45px;
+    border: none;
+    border-radius: 3px;
+    background: #94632b;
+    color: #fff;
+    cursor: pointer;
+    font-size: 16px;
+}
